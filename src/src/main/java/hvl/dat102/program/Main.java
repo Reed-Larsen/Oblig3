@@ -1,4 +1,4 @@
-package org.example;
+package hvl.dat102.program;
 
 public class Main {
     public static void main(String[] args) {
