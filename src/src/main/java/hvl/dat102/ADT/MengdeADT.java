@@ -1,6 +1,6 @@
 package hvl.dat102.ADT;
 
-public interface MengdeADT<T> {
+public interface MengdeADT<T> extends Iterable<T> {
     void leggTil(T element);
     boolean inneholder (T element);
     T fjern (T element);
